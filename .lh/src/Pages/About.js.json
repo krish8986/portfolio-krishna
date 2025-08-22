@@ -1,0 +1,38 @@
+{
+    "sourceFile": "src/Pages/About.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 5,
+            "patches": [
+                {
+                    "date": 1755799934407,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1755800702722,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n import React from \"react\";\r\n import Work from \"../Components/Work\";\r\n import { personalDetails, eduDetails } from \"../Details\";\r\n+import { workDetails } from \"../Details\";\r\n \r\n function About() {\r\n   return (\r\n     <main className=\"container mx-auto max-width pt-10 pb-20 \">\r\n"
+                },
+                {
+                    "date": 1755835974270,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,13 +16,14 @@\n         <h1 className=\"text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold\">\r\n           Work Experience\r\n         </h1>\r\n         {React.Children.toArray(\r\n-          workDetails.map(({ Position, Company, Location, Type, Duration }) => (\r\n+          workDetails.map(({ Position, Company, Location, Sgpa, Type, Duration }) => (\r\n             <Work\r\n               position={Position}\r\n               company={Company}\r\n               location={Location}\r\n+              sgpa={Sgpa}\r\n               type={Type}\r\n               duration={Duration}\r\n             />\r\n           ))\r\n"
+                },
+                {
+                    "date": 1755836031505,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,14 +16,13 @@\n         <h1 className=\"text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold\">\r\n           Work Experience\r\n         </h1>\r\n         {React.Children.toArray(\r\n-          workDetails.map(({ Position, Company, Location, Sgpa, Type, Duration }) => (\r\n+          workDetails.map(({ Position, Company, Location, Type, Duration }) => (\r\n             <Work\r\n               position={Position}\r\n               company={Company}\r\n               location={Location}\r\n-              sgpa={Sgpa}\r\n               type={Type}\r\n               duration={Duration}\r\n             />\r\n           ))\r\n@@ -33,13 +32,14 @@\n         <h1 className=\"text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold\">\r\n           Education\r\n         </h1>\r\n         {React.Children.toArray(\r\n-          eduDetails.map(({ Position, Company, Location, Type, Duration }) => (\r\n+          eduDetails.map(({ Position, Company, Location, Sgpa, Type, Duration }) => (\r\n             <Work\r\n               position={Position}\r\n               company={Company}\r\n               location={Location}\r\n+              sgpa={Sgpa}\r\n               type={Type}\r\n               duration={Duration}\r\n             />\r\n           ))\r\n"
+                },
+                {
+                    "date": 1755844851347,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,8 +44,12 @@\n             />\r\n           ))\r\n         )}\r\n       </section>\r\n+      <a href=\"Krishna-Resume.pdf\" download=\"Krishna-Resume.pdf\" class=\"btn-resume\">\r\n+        Download Resume\r\n+        </a>\r\n+\r\n     </main>\r\n   );\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1755845008348,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,9 +44,9 @@\n             />\r\n           ))\r\n         )}\r\n       </section>\r\n-      <a href=\"Krishna-Resume.pdf\" download=\"Krishna-Resume.pdf\" class=\"btn-resume\">\r\n+      <a href=\"krishna resume11.pdf\" download=\"krishna resume11.pdf\" class=\"btn-resume\">\r\n         Download Resume\r\n         </a>\r\n \r\n     </main>\r\n"
+                }
+            ],
+            "date": 1755799934407,
+            "name": "Commit-0",
+            "content": "import React from \"react\";\r\nimport Work from \"../Components/Work\";\r\nimport { personalDetails, eduDetails } from \"../Details\";\r\n\r\nfunction About() {\r\n  return (\r\n    <main className=\"container mx-auto max-width pt-10 pb-20 \">\r\n      <section>\r\n        <h1 className=\"text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold\">\r\n          About Me\r\n        </h1>\r\n        <p className=\"text-content py-8 lg:max-w-3xl\">{personalDetails.about}</p>\r\n      </section>\r\n      <section>\r\n        <h1 className=\"text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold\">\r\n          Work Experience\r\n        </h1>\r\n        {React.Children.toArray(\r\n          workDetails.map(({ Position, Company, Location, Type, Duration }) => (\r\n            <Work\r\n              position={Position}\r\n              company={Company}\r\n              location={Location}\r\n              type={Type}\r\n              duration={Duration}\r\n            />\r\n          ))\r\n        )}\r\n      </section>\r\n      <section>\r\n        <h1 className=\"text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold\">\r\n          Education\r\n        </h1>\r\n        {React.Children.toArray(\r\n          eduDetails.map(({ Position, Company, Location, Type, Duration }) => (\r\n            <Work\r\n              position={Position}\r\n              company={Company}\r\n              location={Location}\r\n              type={Type}\r\n              duration={Duration}\r\n            />\r\n          ))\r\n        )}\r\n      </section>\r\n    </main>\r\n  );\r\n}\r\n\r\nexport default About;\r\n"
+        }
+    ]
+}

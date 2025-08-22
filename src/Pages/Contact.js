@@ -15,6 +15,7 @@ function Contact() {
       <h3 className="text-center text-3xl md:text-4xl lg:text-6xl text-gradient font-semibold md:font-bold pt-2 md:py-6">
         <a href={`tel:${phone}`}>{phone}</a>
       </h3>
+      
     </main>
   );
 }

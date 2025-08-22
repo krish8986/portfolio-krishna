@@ -1,6 +1,7 @@
 import React from "react";
 import Work from "../Components/Work";
-import { personalDetails, workDetails, eduDetails } from "../Details";
+import { personalDetails, eduDetails } from "../Details";
+import { workDetails } from "../Details";
 
 function About() {
   return (
@@ -32,17 +33,22 @@ function About() {
           Education
         </h1>
         {React.Children.toArray(
-          eduDetails.map(({ Position, Company, Location, Type, Duration }) => (
+          eduDetails.map(({ Position, Company, Location, Sgpa, Type, Duration }) => (
             <Work
               position={Position}
               company={Company}
               location={Location}
+              sgpa={Sgpa}
               type={Type}
               duration={Duration}
             />
           ))
         )}
       </section>
+      <a href="krishna resume11.pdf" download="krishna resume11.pdf" class="btn-resume">
+        Download Resume
+        </a>
+
     </main>
   );
 }

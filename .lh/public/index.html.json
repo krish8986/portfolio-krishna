@@ -1,0 +1,22 @@
+{
+    "sourceFile": "public/index.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1755844189437,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1755844250038,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,14 +11,6 @@\n \r\n   <body class=\"bg-white dark:bg-dark-mode font-primary\">\r\n     <noscript>You need to enable JavaScript to run this app.</noscript>\r\n     <div id=\"root\"></div>\r\n-    <!-- Resume Download Button -->\r\n-    <a\r\n-      href=\"Krishna-Resume.pdf\"\r\n-      download=\"Krishna-Resume.pdf\"\r\n-      class=\"btn-resume\"\r\n-    >\r\n-      Download Resume\r\n-    </a>\r\n   </body>\r\n </html>\r\n"
+                }
+            ],
+            "date": 1755844189437,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n  <meta charset=\"utf-8\" />\r\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, user-scalable=no\" />\r\n  <title>React Developer Portfolio Template V1.0</title>\r\n</head>\r\n\r\n<body class=\"bg-white dark:bg-dark-mode font-primary\">\r\n  <noscript>You need to enable JavaScript to run this app.</noscript>\r\n  <div id=\"root\"></div>\r\n  <!-- Resume Download Button -->\r\n<a href=\"Krishna-Resume.pdf\" download=\"Krishna-Resume.pdf\" class=\"btn-resume\">\r\n  Download Resume\r\n</a>\r\n\r\n</body>\r\n\r\n</html>"
+        }
+    ]
+}
