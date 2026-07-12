@@ -45,9 +45,9 @@ function About() {
           ))
         )}
       </section>
-      <a href="krishna_resume.pdf" download="krishna_resume.pdf" class="btn-resume">
+      <a href="krishna_kr_developer.pdf" download="krishna_kr_developer.pdf" class="btn-resume">
         Download Resume
-        </a>
+      </a>
 
     </main>
   );

@@ -36,14 +36,14 @@ export const personalDetails = {
   name: "KRISHNA KUMAR",
   tagline: "Full Stack Developer (MERN)",
   img: profile,
-  about: `Final-year ECE student at MAIT, GGSIPU (graduating 2026, CGPA 8.52) who builds production-grade full-stack applications. I recently shipped Aranya, a MERN e-commerce platform with Redis caching, real-time order tracking via Socket.io, JWT refresh-token auth, and an admin analytics dashboard — deployed and live. I also build AI/ML-powered tools, including a credit underwriting system using Streamlit and Hugging Face. I'm looking for a Software Engineering role (backend, full-stack, or AI-adjacent) where I can keep shipping things that work end-to-end, not just in a demo.`,
+  about: `Final-year ECE with minor in AI/ML student at MAIT, GGSIPU (graduating 2026, CGPA 8.68) who builds production-grade full-stack applications. I recently shipped Aranya, a MERN e-commerce platform with Redis caching, real-time order tracking via Socket.io, JWT refresh-token auth, and an admin analytics dashboard — deployed and live. I also build AI/ML-powered tools, including a credit underwriting system using Streamlit and Hugging Face. I'm looking for a Software Engineering role (backend, full-stack, or AI-adjacent) where I can keep shipping things that work end-to-end, not just in a demo.`,
 };
 
 // Enter your Social Media URLs here
 export const socialMediaUrl = {
   linkdein: "https://www.linkedin.com/in/krishna-kumar-7558a1229/",
   github: "https://github.com/krish8986",
-  twitter: "https://leetcode.com/u/krishna8986/",
+  leetcode: "https://leetcode.com/u/krishna8986/",
   instagram: "https://www.instagram.com/krishna_kumar74/",
 };
 
@@ -51,46 +51,46 @@ export const workDetails = [];
 
 // Enter your Work Experience here
 // export const workDetails = [
-  // {
-    // Position: "Frontend Web Developer",
-    // Company: `Company Name here`,
-    // Location: "Bengaluru",
-    // Type: "Full Time",
-    // Duration: "Sep 2021 - Dec 2021",
-  // },
-  // {
-    // Position: "Internship",
-    // Company: `Company Name here`,
-    // Location: "Bengaluru",
-    // Type: "Internship",
-    // Duration: "Sep 2021 - Dec 2021",
-  // },
-  // {
-    // Position: "Internship",
-    // Company: `Company Name here`,
-    // Location: "Bengaluru",
-    // Type: "Internship",
-    // Duration: "Sep 2021 - Dec 2021",
-  // },
+// {
+// Position: "Frontend Web Developer",
+// Company: `Company Name here`,
+// Location: "Bengaluru",
+// Type: "Full Time",
+// Duration: "Sep 2021 - Dec 2021",
+// },
+// {
+// Position: "Internship",
+// Company: `Company Name here`,
+// Location: "Bengaluru",
+// Type: "Internship",
+// Duration: "Sep 2021 - Dec 2021",
+// },
+// {
+// Position: "Internship",
+// Company: `Company Name here`,
+// Location: "Bengaluru",
+// Type: "Internship",
+// Duration: "Sep 2021 - Dec 2021",
+// },
 // ];
 
 // Enter your Education Details here
 export const eduDetails = [
   {
-  Position: "Senior Secondary",
-  Company: `Gyan Bharti Global school`,
-  Sgpa: "9.6",
-  Location: "Gaya, Bihar",
-  Type: "Full Time",
-  Duration: "Nov 2021 - 2022",
-},
+    Position: "Senior Secondary",
+    Company: `Gyan Bharti Global school`,
+    Sgpa: "9.6",
+    Location: "Gaya, Bihar",
+    Type: "Full Time",
+    Duration: "Nov 2021 - 2022",
+  },
   {
     Position: "B.Tech in Electronics & Communication Engineering",
     Company: `Maharaja Agrasen Institute of Technology (GGSIPU)`,
-    Sgpa: "8.52",
-    Location: "New Delhi",
+    Sgpa: "8.68",
+    Location: "Delhi NCR",
     Type: "Full Time",
-    Duration: "2022 - May 2026",
+    Duration: "Nov 2022 - May 2026",
   },
 ];
 
@@ -131,13 +131,13 @@ export const projectDetails = [
     techstack: "Python, Machine Learning, Streamlit, Hugging Face",
     githubLink: "https://github.com/krish8986/AI-Predictive-Methods-for-Credit-underwriting",
   },
-  {
-    title: "Blog Platform",
-    image: projectImage3,
-    description: `Full CRUD blogging platform built on the MERN stack with JWT + bcrypt-based authentication, letting users create, edit, and manage posts through an interactive interface.`,
-    techstack: "React, Node.js, Express, MongoDB, JWT, Bootstrap",
-    githubLink: "https://github.com/krish8986/Blog-platform",
-  },
+  // {
+  // title: "Blog Platform",
+  // image: projectImage3,
+  // description: `Full CRUD blogging platform built on the MERN stack with JWT + bcrypt-based authentication, letting users create, edit, and manage posts through an interactive interface.`,
+  // techstack: "React, Node.js, Express, MongoDB, JWT, Bootstrap",
+  // githubLink: "https://github.com/krish8986/Blog-platform",
+  // },
 ];
 
 // Enter your Contact Details here
