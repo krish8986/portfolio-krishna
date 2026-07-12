@@ -18,8 +18,8 @@ function Header() {
         <div onClick={toggleClass} className="cursor-pointer">
           <svg
             className="stroke-dark-heading dark:stroke-white md:hidden"
-            width="55"
-            height="50"
+            width="25"
+            height="20"
             viewBox="0 0 16 13"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"

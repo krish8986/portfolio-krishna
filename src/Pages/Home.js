@@ -1,4 +1,5 @@
 import React, { useRef, useEffect } from "react";
+import { NavLink } from "react-router-dom";
 import gsap from "gsap";
 import { personalDetails } from "../Details";
 
@@ -77,6 +78,27 @@ function Home() {
         >
           {tagline}
         </h2>
+        <div className="flex flex-wrap gap-4 pt-8">
+          <NavLink
+            to="/projects"
+            className="bg-gradient text-white font-medium px-6 py-3 rounded-full shadow hover:opacity-90 transition"
+          >
+            View Projects
+          </NavLink>
+          <a
+            href="krishna resume11.pdf"
+            download="Krishna_Kumar_Resume.pdf"
+            className="border-2 border-dark-heading dark:border-light-heading text-dark-heading dark:text-light-heading font-medium px-6 py-3 rounded-full hover:bg-dark-heading hover:text-white dark:hover:bg-light-heading dark:hover:text-dark-mode transition"
+          >
+            Download Resume
+          </a>
+          <NavLink
+            to="/contact"
+            className="text-dark-heading dark:text-light-heading font-medium px-6 py-3 rounded-full underline underline-offset-4"
+          >
+            Get in Touch
+          </NavLink>
+        </div>
       </div>
       <div className="mt-5 md:mt-0">
         <img ref={myimageref} className="w-1/2 md:ml-auto" src={img} alt="KRISHNA" />

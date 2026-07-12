@@ -11,6 +11,7 @@ import css from "./assets/techstack/css.png";
 import js from "./assets/techstack/js.png";
 import react from "./assets/techstack/react.png";
 import redux from "./assets/techstack/redux.png";
+import sass from "./assets/techstack/sass.png";
 import tailwind from "./assets/techstack/tailwind.png";
 import bootstrap from "./assets/techstack/bootstrap.png";
 import vscode from "./assets/techstack/vscode.png";
@@ -23,9 +24,6 @@ import figma from "./assets/techstack/figma.png";
 import projectImage1 from "./assets/projects/project1.jpg";
 import projectImage2 from "./assets/projects/project2.jpg";
 import projectImage3 from "./assets/projects/project3.jpg";
-import projectImage4 from "./assets/projects/project4.jpg";
-import projectImage5 from "./assets/projects/project5.jpg";
-// import projectImage6 from "./assets/projects/project6.jpg";
 
 // Logos
 export const logos = {
@@ -36,10 +34,9 @@ export const logos = {
 // Enter your Personal Details here
 export const personalDetails = {
   name: "KRISHNA KUMAR",
-  tagline: "MERN Stack Developer | ECE Student",
+  tagline: "Full Stack Developer (MERN)",
   img: profile,
-  about: `I am a final-year Electronics & Communication Engineering student with strong skills in full-stack web development (MERN). I love building scalable web apps, solving problems, and learning new technologies like cloud and IoT.`,
-  
+  about: `Final-year ECE student at MAIT, GGSIPU (graduating 2026, CGPA 8.52) who builds production-grade full-stack applications. I recently shipped Aranya, a MERN e-commerce platform with Redis caching, real-time order tracking via Socket.io, JWT refresh-token auth, and an admin analytics dashboard — deployed and live. I also build AI/ML-powered tools, including a credit underwriting system using Streamlit and Hugging Face. I'm looking for a Software Engineering role (backend, full-stack, or AI-adjacent) where I can keep shipping things that work end-to-end, not just in a demo.`,
 };
 
 // Enter your Social Media URLs here
@@ -88,12 +85,12 @@ export const eduDetails = [
   Duration: "Nov 2021 - 2022",
 },
   {
-    Position: "Bachelor in Electronics & Communication",
-    Company: `Maharaja Agresen Institute of Technology `,
-    Sgpa:"8.4",
+    Position: "B.Tech in Electronics & Communication Engineering",
+    Company: `Maharaja Agrasen Institute of Technology (GGSIPU)`,
+    Sgpa: "8.52",
     Location: "New Delhi",
     Type: "Full Time",
-    Duration: "Nov 2022 - Present",
+    Duration: "2022 - May 2026",
   },
 ];
 
@@ -104,7 +101,7 @@ export const techStackDetails = {
   js: js,
   react: react,
   redux: redux,
-  // sass: sass,
+  sass: sass,
   tailwind: tailwind,
   bootstrap: bootstrap,
   vscode: vscode,
@@ -118,52 +115,29 @@ export const techStackDetails = {
 // Enter your Project Details here
 export const projectDetails = [
   {
-    title: "Aranya E-commerce",
+    title: "Aranya — Eco-Friendly E-Commerce Platform",
     image: projectImage1,
-    description: `Full-stack MERN e-commerce platform with JWT authentication, Razorpay payments, product catalog, and admin dashboard.`,
-    techstack: "React, Node.js, Express, MongoDB, Razorpay API",
-    previewLink: "https://aranya-client.onrender.com/",
-    githubLink: "https://github.com/krish8986/Aranya",
+    featured: true,
+    description: `Production-grade full-stack MERN e-commerce platform. Redis caching for ~20x faster product listing responses, Socket.io for real-time order tracking, JWT refresh-token auth with httpOnly cookies, Razorpay payments with idempotency checks, Cloudinary image storage, OTP email verification, an admin analytics dashboard built on MongoDB aggregation pipelines, Zod validation, Winston logging, and per-route rate limiting. Containerized with Docker and deployed with MongoDB Atlas + Redis on Railway.`,
+    techstack: "React, Node.js, Express, MongoDB, Redis, Socket.io, Razorpay, Cloudinary, Docker",
+    previewLink: "https://aranya-ecommerce-self.vercel.app",
+    githubLink: "https://github.com/krish8986/Aranya-Ecommerce",
   },
   {
-    title: "Tic Tac Toe",
+    title: "AI Credit Underwriting System",
     image: projectImage2,
-    description: `This is a simple Tic Tac Toe game built using HTML, CSS, and JavaScript. The game allows two players to take turns placing their marks (X or O) on a 3x3 grid, with the goal of forming a line horizontally, vertically, or diagonally. It features a clean user interface, responsive design, and real-time winner detection. Once a player wins or the game ends in a draw, the board can be reset to play again.`,
-    techstack: " HTML5, CSS, Javascript",
-    githubLink: "https://github.com/krish8986/Tic_Tac_Toe",
+    featured: true,
+    description: `An AI-powered credit underwriting tool that predicts loan risk from applicant financial data. Combines a trained ML model with a Hugging Face chatbot for natural-language Q&A on the decision, wrapped in an interactive Streamlit UI so non-technical users can run and understand the assessment.`,
+    techstack: "Python, Machine Learning, Streamlit, Hugging Face",
+    githubLink: "https://github.com/krish8986/AI-Predictive-Methods-for-Credit-underwriting",
   },
   {
     title: "Blog Platform",
     image: projectImage3,
-    description: `This is a Blog Platform built using the MERN stack, designed to allow users to create, read, update, and delete blog posts. The platform aims to provide features like user authentication, blog management, and an interactive interface for sharing thoughts and ideas.
-Currently, the project is under development and new features (such as likes, comments, categories, and deployment) are planned to be added in upcoming versions.`,
-    techstack: "React, Node.js, Express, MongoDB, JWT & bcrypt, CSS(Bootstrap)",
+    description: `Full CRUD blogging platform built on the MERN stack with JWT + bcrypt-based authentication, letting users create, edit, and manage posts through an interactive interface.`,
+    techstack: "React, Node.js, Express, MongoDB, JWT, Bootstrap",
     githubLink: "https://github.com/krish8986/Blog-platform",
   },
-  {
-    title: "Amazon-clone",
-    image: projectImage4,
-    description: `This is an Amazon-inspired e-commerce web application built to replicate core front/Home slide of the Amazon platform. LATER PART (Although still under development, later the project aims to offer users a seamless shopping experience—featuring product browsing, a shopping cart, user authentication, and secure payments. The intent is to eventually enable features like product search, order management, and a responsive UI that works across devices.)`,
-    techstack: "HTML5, CSS, JavaScript",
-    githubLink: "https://github.com/krish8986/amazon-clone",
-  },
-  {
-    title: "Portfolio-krishna",
-    image: projectImage5,
-    description: `This personal portfolio website built using React.js to showcase my projects, skills, and resume.`,
-    techstack: "React.js, CSS, Bootstrap",
-    previewLink: "https://krishna-portfolio.vercel.app", // after deploy
-    githubLink: "https://github.com/krish8986/portfolio-krishna",
-  },
-  // {
-    // title: "Project title 6",
-    // image: projectImage6,
-    // description: `This is sample project description random things are here in description This is sample
-// project lorem ipsum generator for dummy content`,
-    // techstack: "HTML/CSS, JavaScript",
-    // previewLink: "https://google.com",
-    // githubLink: "https://github.com",
-  // },
 ];
 
 // Enter your Contact Details here
