@@ -3,20 +3,41 @@ import { techStackDetails } from "../Details";
 
 function Technologies() {
   const {
-    html,
-    css,
-    js,
-    react,
-    redux,
-    tailwind,
-    bootstrap,
-    sass,
-    vscode,
-    git,
-    github,
-    npm,
-    postman,
-    figma,
+    html: html,
+
+    css: css,
+
+    js: js,
+
+    react: react,
+
+    redux: redux,
+
+    sass: sass,
+
+    tailwind: tailwind,
+
+    bootstrap: bootstrap,
+
+    vscode: vscode,
+
+    postman: postman,
+
+    npm: npm,
+
+    git: git,
+
+    github: github,
+
+    figma: figma,
+
+    redisIcon: redisIcon,
+
+    socketio: socketio,
+
+    docker: docker,
+
+    razorpay: razorpay,
   } = techStackDetails;
   return (
     <main className="container mx-auto max-width pt-10 pb-20 ">
@@ -37,6 +58,10 @@ function Technologies() {
         <img src={tailwind} title="Tailwind CSS" alt="" />
         <img src={bootstrap} title="Bootstrap" alt="" />
         <img src={sass} title="SASS" alt="" />
+        <img src={redisIcon} title="Redis" alt="Redis" />
+        <img src={socketio} title="Socket.io" alt="Socket.io" />
+        <img src={docker} title="Docker" alt="Docker" />
+        <img src={razorpay} title="Razorpay" alt="Razorpay" />
       </section>
       <section>
         <h1 className="text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">

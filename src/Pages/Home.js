@@ -9,52 +9,20 @@ function Home() {
   const h12 = useRef();
   const h13 = useRef();
   const myimageref = useRef();
+
   useEffect(() => {
     const tl = gsap.timeline();
-    tl.from(
-      h11.current,
-      {
-        x: "-100%",
-        delay: 0.8,
-        opacity: 0,
-        duration: 2,
-        ease: "Power3.easeOut",
-      },
-      "<"
-    )
-      .from(
-        h12.current,
-        {
-          x: "-100%",
-          delay: 0.5,
-          opacity: 0,
-          duration: 2,
-          ease: "Power3.easeOut",
-        },
-        "<"
-      )
-      .from(
-        h13.current,
-        {
-          x: "-100%",
-          delay: 0.1,
-          opacity: 0,
-          duration: 2,
-          ease: "Power3.easeOut",
-        },
-        "<"
-      )
-      .from(
-        myimageref.current,
-        {
-          x: "200%",
-          delay: 0.5,
-          opacity: 0,
-          duration: 2,
-          ease: "Power3.easeOut",
-        },
-        "<"
-      );
+    tl.from([h11.current, h12.current, h13.current], {
+      y: 20,
+      opacity: 0,
+      duration: 0.8,
+      stagger: 0.15,
+      ease: "power2.out",
+    }).from(
+      myimageref.current,
+      { opacity: 0, duration: 0.8, ease: "power2.out" },
+      "<0.2"
+    );
   }, []);
 
   return (
@@ -86,8 +54,8 @@ function Home() {
             View Projects
           </NavLink>
           <a
-            href="krishna resume11.pdf"
-            download="Krishna_Kumar_Resume.pdf"
+            href="krishna_kr_developer.pdf"
+            download="krishna_kr_developer.pdf"
             className="border-2 border-dark-heading dark:border-light-heading text-dark-heading dark:text-light-heading font-medium px-6 py-3 rounded-full hover:bg-dark-heading hover:text-white dark:hover:bg-light-heading dark:hover:text-dark-mode transition"
           >
             Download Resume

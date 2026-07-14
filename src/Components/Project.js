@@ -1,6 +1,6 @@
 import React from "react";
 
-function Project({ title, image, description, techstack, previewLink, githubLink, featured }) {
+function Project({ title, image, description, techstack, previewLink, githubLink, featured, highlight }) {
   return (
     <article className="card relative rounded-xl mt-10 overflow-hidden shadow-xl shadow-slate-300 dark:shadow-slate-900">
       {featured && (
@@ -11,13 +11,17 @@ function Project({ title, image, description, techstack, previewLink, githubLink
       <img src={image} alt="" loading="lazy" />
       <div className="dark:bg-dark-card p-4">
         <h1 className="dark:text-light-heading font-semibold text-lg pt-1">{title}</h1>
+        {highlight && (
+          <p className="font-tag text-xs text-green-text pt-1">{highlight}</p>
+        )}
         <p className="text-content pt-4 font-light">{description}</p>
         <div className="flex flex-wrap gap-2 pt-4">
           {techstack.split(",").map((tech) => (
             <span
               key={tech.trim()}
-              className="text-xs font-medium px-2.5 py-1 rounded-full bg-greenbg text-green-text dark:bg-dark-mode dark:text-light-heading border border-green-text/20"
+              className="text-xs font-tag px-2.5 py-1 rounded-full bg-greenbg text-green-text dark:bg-dark-mode dark:text-light-heading border border-green-text/20"
             >
+
               {tech.trim()}
             </span>
           ))}
