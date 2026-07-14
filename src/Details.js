@@ -26,7 +26,6 @@ import figma from "./assets/techstack/figma.png";
 // Project Images
 import projectImage1 from "./assets/projects/project1.jpg";
 import projectImage2 from "./assets/projects/project2.jpg";
-import projectImage3 from "./assets/projects/project3.jpg";
 
 // Logos
 export const logos = {
