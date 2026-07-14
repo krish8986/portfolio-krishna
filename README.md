@@ -1,55 +1,153 @@
-# React Developer Portfolio template
-#### Live Demo https://react-portfolio-v1.netlify.app/
-#### Figma Design https://www.figma.com/community/file/1116246660507537002
-### Preview ( Dark Mode )
+# 👋 Krishna Kumar - Developer Portfolio
 
-<img src="/preview.gif" alt="preview" width="600px" />
+A modern, responsive developer portfolio built with **React.js**, **Tailwind CSS**, and **GSAP** to showcase my projects, technical skills, and professional profile.
 
-## Follow Below instructions to add your deatils in the portfolio.
+🌐 **Live Demo:** https://portfolio-krishna-kumar-20s.netlify.app
 
-### Change and customize every section according to your need, All you need to do is edit `/src/Details.js`
+---
 
-#### Open `/src/Details.js` & modify it as per your need.
+## 📸 Preview
 
-```javascript
-/ Enter your Personal Details here
-export const personalDetails = {
-  name: "Pavan MG",
-  tagline: "I build things for web",
-  img: profile,
-  about: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-  when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
-};
+![Portfolio Preview](./preview.png)
 
-// Enter your Social Media URLs here
-export const socialMediaUrl = {
-  linkdein: "https://www.linkedin.com/",
-  github: "https://www.github.com/",
-  twitter: "https://twitter.com/",
-  instagram: "https://www.instagram.com/",
-};
+---
 
-// Enter your Work Experience here
-export const workDetails = [
-  {
-    Position: "Frontend Web Developer",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Full Time",
-    Duration: "Sep 2021 - Dec 2021",
-  }
-];
+## ✨ Features
 
-// Enter your Education Details here
-export const eduDetails = { ... };
+- 🎨 Modern and responsive UI
+- ⚡ Built with React.js
+- 💨 Styled using Tailwind CSS
+- 🎬 Smooth animations using GSAP
+- 📱 Mobile-friendly design
+- 📂 Dedicated Projects section
+- 🛠️ Technologies showcase
+- 📄 Resume download
+- 📬 Contact section with social links
+- 🚀 Optimized for deployment on Netlify
 
-// Tech Stack and Tools
-export const techStackDetails = { ... };
+---
 
-// Enter your Project Details here
-export const projectDetails = [ ... ];
+## 🛠️ Tech Stack
 
-// Enter your Contact Details here
-export const contactDetails = { ... };
+### Frontend
+- React.js
+- Tailwind CSS
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+
+### Animation
+- GSAP
+
+### Routing
+- React Router DOM
+
+### Deployment
+- Netlify
+
+---
+
+## 📂 Project Structure
+
 ```
+src/
+│
+├── Components/
+│   ├── Header.js
+│   ├── Footer.js
+│   ├── Project.js
+│   └── Work.js
+│
+├── Pages/
+│   ├── Home.js
+│   ├── About.js
+│   ├── Technologies.js
+│   ├── Projects.js
+│   └── Contact.js
+│
+├── assets/
+├── Details.js
+├── App.js
+└── index.js
+```
+
+---
+
+## 🚀 Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/krish8986/react-developer-portfolio.git
+```
+
+Move into the project
+
+```bash
+cd react-developer-portfolio
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the development server
+
+```bash
+npm start
+```
+
+Create a production build
+
+```bash
+npm run build
+```
+
+---
+
+## 📌 Featured Projects
+
+### 🌿 Aranya - Eco-Friendly Notebook E-commerce Platform
+
+A production-ready MERN stack application featuring:
+
+- JWT Authentication
+- Refresh Token Authentication
+- Redis Caching
+- Socket.IO Real-time Order Updates
+- Cloudinary Image Uploads
+- Product Reviews & Ratings
+- Admin Dashboard
+- Email Notifications
+- Docker Support
+- REST APIs
+
+---
+
+### 🤖 AI Predictive Credit Underwriting
+
+Machine Learning project focused on predicting customer creditworthiness using historical financial data.
+
+---
+
+## 📬 Contact
+
+**Krishna Kumar**
+
+📧 Email: your-email@example.com
+
+💼 LinkedIn: https://www.linkedin.com/in/krishna-kumar-deve/
+
+💻 GitHub: https://github.com/krish8986
+
+---
+
+## ⭐ If you like this project
+
+Please consider giving it a **Star ⭐** on GitHub.
+
+---
+
+Made with ❤️ by Krishna Kumar
