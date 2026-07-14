@@ -30,7 +30,7 @@ h2 {
 }
 
 .section {
-  @apply pt-28 xl:pt-28 2xl:pt-44;
+  @apply pt-8 xl:pt-28 2xl:pt-16;
 }
 
 .text-content {
@@ -41,10 +41,10 @@ body::-webkit-scrollbar {
   display: none;
 }
 
-.w-14 {
-  height: 50%;
-  width: 50%;
-}
+/* .w-14 { */
+/* height: 50%; */
+/* width: 50%; */
+/* } */
 
 html {
   scroll-behavior: smooth;

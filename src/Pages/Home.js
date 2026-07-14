@@ -26,27 +26,27 @@ function Home() {
   }, []);
 
   return (
-    <main className="container mx-auto max-width section md:flex justify-between items-center">
-      <div>
+    <main className="container mx-auto max-width flex flex-col-reverse md:flex-row items-center justify-between min-h-[calc(100vh-96px)] gap-12">
+      <div className="md:w-1/2 text-center md:text-left">
         <h1
           ref={h11}
-          className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold"
+          className="text-4xl md:text-5xl lg:text-6xl leading-tight font-bold text-dark-heading dark:text-light-heading"
         >
           Hi,👋<br></br>My Name is<br></br>
         </h1>
         <h1
           ref={h12}
-          className="text-2xl bg-clip-text bg-gradient text-transparent md:text-4xl xl:text-5xl xl:leading-tight font-bold"
+          className="text-4xl md:text-5xl lg:text-6xl leading-tight font-bold text-dark-heading dark:text-light-heading"
         >
           {name}
         </h1>
         <h2
           ref={h13}
-          className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold"
+          className="text-4xl md:text-5xl lg:text-6xl leading-tight font-bold text-dark-heading dark:text-light-heading"
         >
           {tagline}
         </h2>
-        <div className="flex flex-wrap gap-4 pt-8">
+        <div className="flex flex-wrap justify-center md:justify-start gap-5 mt-8">
           <NavLink
             to="/projects"
             className="bg-gradient text-white font-medium px-6 py-3 rounded-full shadow hover:opacity-90 transition"
@@ -62,14 +62,26 @@ function Home() {
           </a>
           <NavLink
             to="/contact"
-            className="text-dark-heading dark:text-light-heading font-medium px-6 py-3 rounded-full underline underline-offset-4"
+            className="text-dark-heading dark:text-light-heading font-medium px-6 py-3 rounded-xl underline underline-offset-4"
           >
             Get in Touch
           </NavLink>
         </div>
       </div>
-      <div className="mt-5 md:mt-0">
-        <img ref={myimageref} className="w-1/2 md:ml-auto" src={img} alt="KRISHNA" />
+      <div className="md:w-1/2 flex justify-end items-center">
+        {/* <img ref={myimageref} className="w-1/2 md:ml-auto" src={img} alt="KRISHNA" /> */}
+        {/* <img 
+          // ref={myimageref}
+          // src={img}
+          // alt="Krishna Kumar"
+        // className="w-72 md:w-96 lg:w-[430px] xl:w-[470px] rounded-xl object-cover shadow-xl"
+        */}
+        <img
+          ref={myimageref}
+          src={img}
+          alt="KRISHNA"
+          className="w-72 md:w-96 lg:w-[430px] xl:w-[470px] rounded-2xl object-cover shadow-2xl ring-1 ring-gray-200"
+        />
       </div>
     </main>
   );
