@@ -3,41 +3,24 @@ import { techStackDetails } from "../Details";
 
 function Technologies() {
   const {
-    html: html,
-
-    css: css,
-
-    js: js,
-
-    react: react,
-
-    redux: redux,
-
-    sass: sass,
-
-    tailwind: tailwind,
-
-    bootstrap: bootstrap,
-
-    vscode: vscode,
-
-    postman: postman,
-
-    npm: npm,
-
-    git: git,
-
-    github: github,
-
-    figma: figma,
-
-    redisIcon: redisIcon,
-
-    socketio: socketio,
-
-    docker: docker,
-
-    razorpay: razorpay,
+    html,
+    css,
+    js,
+    react,
+    redux,
+    sass,
+    tailwind,
+    bootstrap,
+    vscode,
+    postman,
+    npm,
+    git,
+    github,
+    figma,
+    redisIcon,
+    socketio,
+    docker,
+    razorpay,
   } = techStackDetails;
   return (
     <main className="container mx-auto max-width pt-10 pb-20 ">

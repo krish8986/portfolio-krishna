@@ -4,7 +4,7 @@ import { logos, socialMediaUrl } from "../Details";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
-  const { linkdein, github, twitter } = socialMediaUrl;
+  const { linkdein, github } = socialMediaUrl;
   const toggleClass = () => {
     setIsOpen(!isOpen);
   };
