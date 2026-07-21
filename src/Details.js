@@ -36,9 +36,9 @@ export const logos = {
 // Enter your Personal Details here
 export const personalDetails = {
   name: "KRISHNA KUMAR",
-  tagline: "Full Stack Developer (MERN)",
+  tagline: "Backend & AI Developer",
   img: profile,
-  about: `Backend and full-stack developer building production-grade MERN applications with secure authentication, Redis caching, real-time systems, and cloud deployment. Final-year B.Tech ECE student at MAIT, GGSIPU (minor in AI/ML, graduating May 2026, CGPA 8.68). Shipped Aranya, a live e-commerce platform with 30+ REST APIs, JWT refresh-token auth, Redis-based cache invalidation, Socket.io real-time order tracking, and Docker-based deployment. Completed a full-stack internship at Diginique Tech Labs (with iHUB DivyaSampark, IIT Roorkee) and built an ML-based credit underwriting pipeline. Looking for a Software Engineering role — backend, full-stack, or AI-adjacent — where I can keep shipping systems that work end-to-end.`,
+  about: `Backend and AI developer passionate about building production-grade applications using Node.js, FastAPI, Python, React, and modern AI technologies. Final-year B.Tech ECE student at MAIT, GGSIPU (Minor in AI/ML, graduating May 2026, CGPA 8.68). Built Aranya, a production-ready MERN e-commerce platform with secure authentication, Redis caching, real-time order tracking, and Docker-based deployment. Recently developed an AI Credit Underwriting Platform featuring FastAPI, Streamlit, Machine Learning, SHAP, and a Retrieval-Augmented Generation (RAG) assistant. Currently seeking Software Engineer, Backend Developer, or AI-focused roles where I can build scalable and impactful products.`,
 };
 
 // Enter your Social Media URLs here
@@ -123,18 +123,20 @@ export const projectDetails = [
     githubLink: "https://github.com/krish8986/Aranya-Ecommerce",
   },
   {
-    title: "AI Credit Underwriting System",
-    highlight: "End-to-end ML pipeline · Hugging Face chatbot",
-    image: projectImage2,
-    featured: true,
-    description: `End-to-end ML pipeline for credit underwriting — data preprocessing, feature engineering, model training and evaluation using scikit-learn classification models to predict loan approval probability. Integrated a Hugging Face-powered conversational assistant to explain predictions and answer loan-related questions, wrapped in an interactive Streamlit UI.`,
-    techstack: "Python, Scikit-learn, Streamlit, Hugging Face, Machine Learning",
-    githubLink: "https://github.com/krish8986/AI-Predictive-Methods-for-Credit-underwriting",
-  },
+  title: "AI Credit Underwriting Platform",
+  highlight: "Production ML · FastAPI · SHAP · RAG",
+  image: projectImage2,
+  featured: true,
+  description: `Developed a production-ready AI-powered credit underwriting platform using FastAPI, Streamlit, and a Gradient Boosting classifier to automate loan approval prediction. Implemented SHAP-based explainability, PDF report generation, and a Retrieval-Augmented Generation (RAG) assistant using FAISS and Groq LLM. Containerized the application with Docker and deployed the FastAPI backend on Render and the Streamlit frontend on Streamlit Community Cloud.`,
+  techstack: "Python • FastAPI • Streamlit • Scikit-learn • SHAP • FAISS • Groq LLM • Docker",
+  liveLink: "https://ai-predictive-methods-for-credit-underwriting-dfqmcy7nmn2bczde.streamlit.app",
+  githubLink: "https://github.com/krish8986/AI-Predictive-Methods-for-Credit-underwriting",
+},
 ];
 
 // Enter your Contact Details here
 export const contactDetails = {
+  LinkedIn: https://www.linkedin.com/in/krishna-kumar-deve/
   email: "krishnagaya234@gmail.com",
   phone: "+91 8986286812",
 };
