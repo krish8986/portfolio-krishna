@@ -126,9 +126,13 @@ A production-ready MERN stack application featuring:
 
 ---
 
-### 🤖 AI Predictive Credit Underwriting
+## AI Credit Underwriting Platform
 
-Machine Learning project focused on predicting customer creditworthiness using historical financial data.
+Production-ready AI-powered credit underwriting platform that automates loan approval prediction using Machine Learning, Explainable AI, and a FastAPI-based backend. The application includes a Streamlit dashboard, SHAP-based model explanations, PDF report generation, and a Retrieval-Augmented Generation (RAG) assistant for context-aware credit underwriting queries.
+
+### Tech Stack
+
+Python • FastAPI • Streamlit • Scikit-learn • SHAP • FAISS • Groq LLM • Docker
 
 ---
 
